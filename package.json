@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/jhines19/employer-dbms#readme",
   "dependencies": {
+    "console.table": "^0.10.0",
     "express": "^4.17.1",
     "mysql2": "^2.3.3",
     "node": "^17.1.0"
