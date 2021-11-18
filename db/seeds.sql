@@ -1,17 +1,17 @@
 INSERT INTO department (dep_name)
-VALUES ("Sales"),
+VALUES ("Customer Success"),
        ("Engineering"),
-       ("Phrenology"),
-       ("Basket Weaving");
+       ("QA"),
+       ("Admin");
 
 INSERT INTO roles (job_title, salary, department_id)
-VALUES ("Salesman", 35000.00, 001),
-       ("Engineer", 65000.00, 002),
-       ("Skull Inspector", 25000.00, 003),
-       ("Basket Weaver", 125000.00, 004);
+VALUES ("Customer Success Asc", 50000.00, 001),
+       ("Sr Frontend Engineer", 165000.00, 002),
+       ("Staff Engineer QA", 250000.00, 003),
+       ("Backend Engineer", 125000.00, 004);
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Chris", "Long", 001, 25),
-       ( "Fred", "Durst", 002, 245),
-       ( "Charles", "Barkley", 003, 5),
-       ( "Ashley", "Tisdale", 004, 2);
+VALUES ("Tony", "quin", 001, 12),
+       ( "John", "Smith", 002, 3),
+       ( "Charles", "Barkley", 003, 44),
+       ( "Harley", "hope", 004, 12);
