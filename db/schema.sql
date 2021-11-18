@@ -13,9 +13,8 @@ DROP TABLE IF EXISTS roles;
 CREATE TABLE roles(
     id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     job_title VARCHAR(30) NOT NULL,
-    role_id INT NOT NULL,
-    dep VARCHAR(30) NOT NULL,
     salary DECIMAL NOT NULL,
+    department_id VARCHAR(30) NOT NULL,
     FOREIGN KEY (dep) REFERENCES department(dep_name)
 );
 
@@ -26,6 +25,6 @@ CREATE TABLE employee(
     last_name VARCHAR(30) NOT NULL,
     role_id INT,
     manager_id INT,
-    FOREIGN KEY (role_id) REFERENCES roles(id)
+    FOREIGN KEY (role_id) REFERENCES roles(id),
     ON DELETE SET NULL
 );
