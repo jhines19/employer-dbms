@@ -2,6 +2,8 @@ const inquirer = require('inquirer');
 const cTable = require('console.table');
 const echo = require('node-echo'); //required for ascii art
 const db = require("./connect")
+const PORT = process.env.PORT || 3001;
+
 
 var express = require('express');  
 var app = express();
