@@ -4,7 +4,7 @@ VALUES ("Customer Success"),
        ("QA"),
        ("Admin");
 
-INSERT INTO roles (job_title, salary, department_id)
+INSERT INTO roles (title, salary, department_id)
 VALUES ("Customer Success Asc", 50000.00, 001),
        ("Sr Frontend Engineer", 165000.00, 002),
        ("Staff Engineer QA", 250000.00, 003),
